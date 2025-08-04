@@ -134,4 +134,51 @@ if (document.readyState === 'loading') {
     document.addEventListener('DOMContentLoaded', initializeAnimations);
 } else {
     initializeAnimations();
-} 
+}
+
+// Contact Form Functionality
+const contactForm = document.getElementById('contactForm');
+
+if (contactForm) {
+    contactForm.addEventListener('submit', function(e) {
+        e.preventDefault();
+        
+        // Get form data
+        const formData = new FormData(this);
+        const data = Object.fromEntries(formData);
+        
+        // Simple validation
+        if (!data.name || !data.email || !data.service || !data.message) {
+            alert('Bitte füllen Sie alle Pflichtfelder aus.');
+            return;
+        }
+        
+        // Email validation
+        const emailRegex = /^[^\s@]+@[^\s@]+\.[^\s@]+$/;
+        if (!emailRegex.test(data.email)) {
+            alert('Bitte geben Sie eine gültige Email-Adresse ein.');
+            return;
+        }
+        
+        // Show success message (in a real application, you would send this to a server)
+        alert('Vielen Dank für Ihre Nachricht! Ich werde mich bald bei Ihnen melden.');
+        
+        // Reset form
+        this.reset();
+    });
+}
+
+// Add animation for contact section elements
+const contactElements = [
+    '.contact-info h3',
+    '.contact-info p',
+    '.contact-item',
+    '.contact-form'
+];
+
+contactElements.forEach(selector => {
+    const elements = document.querySelectorAll(selector);
+    elements.forEach(element => {
+        observer.observe(element);
+    });
+}); 

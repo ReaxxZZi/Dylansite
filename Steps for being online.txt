@@ -1,0 +1,34 @@
+Was du bereits hast:
+Moderne, responsive Webseite
+Saubere HTML-Struktur
+Professionelles CSS-Design
+JavaScript-Animationen
+Kontaktformular (neu hinzugefügt)
+SEO-Grundlagen (neu hinzugefügt)
+🚀 Nächste Schritte für das Online-Stellen:
+1. Domain & Hosting:
+Domain kaufen (z.B. dylan-photography.de)
+Hosting wählen (Netlify/Vercel kostenlos, oder professionelle Anbieter)
+2. Bilder hinzufügen:
+Echte Fotos von Dylan's Arbeit
+Optimierte Bildgrößen für schnelle Ladezeiten
+Alt-Texte für Barrierefreiheit
+3. Backend für Kontaktformular:
+Email-Service (z.B. EmailJS, Formspree)
+Oder Server-Side-Processing
+4. Analytics & Tracking:
+Google Analytics einrichten
+Google Search Console
+Facebook Pixel (falls gewünscht)
+5. Rechtliche Aspekte:
+Impressum erstellen
+Datenschutzerklärung
+Cookie-Banner (falls nötig)
+6. Testing:
+Verschiedene Browser testen
+Mobile-Geräte testen
+Geschwindigkeit optimieren
+7. Marketing:
+Social Media verknüpfen
+Google My Business einrichten
+Lokale SEO optimieren
