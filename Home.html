@@ -33,13 +33,15 @@
     <!-- Navigation Bar -->
     <nav class="navbar">
         <div class="nav-container">
+            <div class="nav-logo">
+                <a href="#home">Dylan Photography</a>
+            </div>
+            
             <div class="nav-menu" id="nav-menu">
-                <a href="#home" class="nav-link">Startseite</a>
+                <a href="#home" class="nav-link">Start</a>
                 <a href="#portfolio" class="nav-link">Portfolio</a>
-                <a href="#services" class="nav-link">Dienste</a>
                 <a href="#about" class="nav-link">Über mich</a>
                 <a href="#contact" class="nav-link">Kontakt</a>
-                <a href="#contact" class="nav-link nav-cta">Anfrage</a>
             </div>
             
             <div class="nav-toggle" id="nav-toggle">
@@ -56,10 +58,12 @@
             <div class="hero-content">
                 <h1 class="hero-title">Dylan Photography</h1>
                 <p class="hero-subtitle">Professionelle Fotografie für unvergessliche Momente</p>
-                <p class="hero-description">
-                    Ich bin Dylan, ein leidenschaftlicher Fotograf. 
-                    Ich spezialisiere mich darauf, die schönsten Momente Ihres Lebens in atemberaubenden Bildern festzuhalten.
-                </p>
+                <div class="hero-description">
+                    <p>Ich bin Dylan, ein leidenschaftlicher Fotograf. Ich spezialisiere mich darauf, die schönsten Momente Ihres Lebens in atemberaubenden Bildern festzuhalten.</p>
+                </div>
+                <div class="hero-cta">
+                    <a href="#portfolio" class="cta-button">Portfolio ansehen</a>
+                </div>
             </div>
             
             <div class="scroll-arrow" id="scrollArrow">
@@ -70,63 +74,15 @@
         <!-- Portfolio Section -->
         <section class="portfolio-section" id="portfolio">
             <div class="section-container">
-                <h2 class="section-title">Über mich & Meine Dienste</h2>
+                <h2 class="section-title">Portfolio</h2>
                 
-                <div class="about-grid">
-                    <div class="about-content">
-                        <h3 class="about-title">Meine Geschichte</h3>
-                        <p class="about-text">
-                            Als leidenschaftlicher Fotograf widme ich mich der Kunst, Momente in ihrer reinsten Form einzufangen. 
-                            Mit einem Auge für Details und einem Gespür für das perfekte Licht schaffe ich Bilder, die Geschichten erzählen.
-                        </p>
-                        <p class="about-text">
-                            Meine Reise begann vor über 1 Jahr, seitdem habe ich unzählige glückliche Kunden bei ihren 
-                            wichtigsten Lebensmomenten begleitet. Jedes Projekt ist einzigartig und verdient meine volle Aufmerksamkeit.
-                        </p>
-                        <a href="#contact" class="cta-button">Kontakt aufnehmen</a>
-                    </div>
-                    
-                    <div class="about-content">
-                        <h3 class="about-title">Meine Dienste</h3>
-                        <ul class="services-list">
-                            <li>Hochzeitsfotografie</li>
-                            <li>Portrait-Fotografie</li>
-                            <li>Event-Fotografie</li>
-                            <li>Produktfotografie</li>
-                            <li>Familienfotografie</li>
-                            <li>Business-Portraits</li>
-                        </ul>
-                    </div>
-                </div>
-
-                <h3 class="section-title" style="font-size: 2.5rem; margin-top: 80px;">Portfolio Beispiele</h3>
                 <div class="portfolio-grid">
                     <div class="portfolio-item">
-                        <div class="portfolio-image"></div>
-                        <div class="portfolio-content">
-                            <h4 class="portfolio-title">Hochzeitsfotografie</h4>
-                            <p class="portfolio-description">
-                                Romantische Hochzeitsfotografie, die jeden besonderen Moment Ihres großen Tages einfängt. 
-                                Von der Vorbereitung bis zum letzten Tanz.
-                            </p>
+                        <div class="portfolio-image">
+                            <img src="images/TierPic.jpg" alt="Event-Fotografie" loading="lazy">
                         </div>
-                    </div>
-                    
-                    <div class="portfolio-item">
-                        <div class="portfolio-image"></div>
                         <div class="portfolio-content">
-                            <h4 class="portfolio-title">Portrait-Fotografie</h4>
-                            <p class="portfolio-description">
-                                Professionelle Portrait-Fotografie, die Ihre Persönlichkeit und Schönheit authentisch 
-                                und natürlich in Szene setzt.
-                            </p>
-                        </div>
-                    </div>
-                    
-                    <div class="portfolio-item">
-                        <div class="portfolio-image"></div>
-                        <div class="portfolio-content">
-                            <h4 class="portfolio-title">Event-Fotografie</h4>
+                            <h3 class="portfolio-title">Event-Fotografie</h3>
                             <p class="portfolio-description">
                                 Lebendige Event-Fotografie für Geburtstage, Firmenfeiern und besondere Anlässe. 
                                 Jeder Moment wird festgehalten.
@@ -135,9 +91,37 @@
                     </div>
                     
                     <div class="portfolio-item">
-                        <div class="portfolio-image"></div>
+                        <div class="portfolio-image">
+                            <img src="images/Till1.jpg" alt="Portrait-Fotografie" loading="lazy">
+                        </div>
                         <div class="portfolio-content">
-                            <h4 class="portfolio-title">Produktfotografie</h4>
+                            <h3 class="portfolio-title">Portrait-Fotografie</h3>
+                            <p class="portfolio-description">
+                                Professionelle Portrait-Fotografie, die Ihre Persönlichkeit und Schönheit authentisch 
+                                und natürlich in Szene setzt.
+                            </p>
+                        </div>
+                    </div>
+                    
+                    <div class="portfolio-item">
+                        <div class="portfolio-image">
+                            <img src="images/portfolio/wedding.jpg" alt="Hochzeitsfotografie" loading="lazy">
+                        </div>
+                        <div class="portfolio-content">
+                            <h3 class="portfolio-title">Hochzeitsfotografie</h3>
+                            <p class="portfolio-description">
+                                Romantische Hochzeitsfotografie, die jeden besonderen Moment Ihres großen Tages einfängt. 
+                                Von der Vorbereitung bis zum letzten Tanz.
+                            </p>
+                        </div>
+                    </div>
+                    
+                    <div class="portfolio-item">
+                        <div class="portfolio-image">
+                            <img src="images/portfolio/product.jpg" alt="Produktfotografie" loading="lazy">
+                        </div>
+                        <div class="portfolio-content">
+                            <h3 class="portfolio-title">Produktfotografie</h3>
                             <p class="portfolio-description">
                                 Professionelle Produktfotografie für Ihr Business. Ihre Produkte werden ins beste Licht gerückt.
                             </p>
@@ -145,9 +129,11 @@
                     </div>
                     
                     <div class="portfolio-item">
-                        <div class="portfolio-image"></div>
+                        <div class="portfolio-image">
+                            <img src="images/portfolio/family.jpg" alt="Familienfotografie" loading="lazy">
+                        </div>
                         <div class="portfolio-content">
-                            <h4 class="portfolio-title">Familienfotografie</h4>
+                            <h3 class="portfolio-title">Familienfotografie</h3>
                             <p class="portfolio-description">
                                 Warme und authentische Familienfotografie, die die Liebe und Verbundenheit Ihrer Familie 
                                 in natürlichen Momenten einfängt.
@@ -156,9 +142,11 @@
                     </div>
                     
                     <div class="portfolio-item">
-                        <div class="portfolio-image"></div>
+                        <div class="portfolio-image">
+                            <img src="images/portfolio/business.jpg" alt="Business-Portraits" loading="lazy">
+                        </div>
                         <div class="portfolio-content">
-                            <h4 class="portfolio-title">Business-Portraits</h4>
+                            <h3 class="portfolio-title">Business-Portraits</h3>
                             <p class="portfolio-description">
                                 Professionelle Business-Portraits, die Ihre Kompetenz und Persönlichkeit 
                                 für Ihr berufliches Netzwerk optimal präsentieren.
@@ -169,10 +157,35 @@
             </div>
         </section>
 
+        <!-- About Section -->
+        <section class="about-section" id="about">
+            <div class="section-container">
+                <h2 class="section-title">Über mich</h2>
+                
+                <div class="about-content">
+                    <div class="about-text">
+                        <p>
+                            Als leidenschaftlicher Fotograf widme ich mich der Kunst, Momente in ihrer reinsten Form einzufangen. 
+                            Mit einem Auge für Details und einem Gespür für das perfekte Licht schaffe ich Bilder, die Geschichten erzählen.
+                        </p>
+                        <p>
+                            Meine Reise begann vor über 1 Jahr, seitdem habe ich unzählige glückliche Kunden bei ihren 
+                            wichtigsten Lebensmomenten begleitet. Jedes Projekt ist einzigartig und verdient meine volle Aufmerksamkeit.
+                        </p>
+                    </div>
+                    
+                    <div class="about-image">
+                        <img src="images/portrait2.jpg" alt="Dylan - Fotograf" loading="lazy">
+                    </div>
+                </div>
+            </div>
+        </section>
+
         <!-- Contact Section -->
         <section class="contact-section" id="contact">
             <div class="section-container">
                 <h2 class="section-title">Kontakt</h2>
+                
                 <div class="contact-content">
                     <div class="contact-info">
                         <h3>Lass uns zusammenarbeiten</h3>
@@ -237,6 +250,27 @@
             </div>
         </section>
     </div>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <div class="footer-content">
+            <div class="footer-logo">
+                <h3>Dylan Photography</h3>
+            </div>
+            <div class="footer-links">
+                <a href="#home">Start</a>
+                <a href="#portfolio">Portfolio</a>
+                <a href="#about">Über mich</a>
+                <a href="#contact">Kontakt</a>
+            </div>
+            <div class="footer-contact">
+                <p>dylan@photography.com | +49 123 456 789</p>
+            </div>
+        </div>
+        <div class="footer-bottom">
+            <p>&copy; 2024 Dylan Photography. Alle Rechte vorbehalten.</p>
+        </div>
+    </footer>
 
     <script src="script.js"></script>
 </body>

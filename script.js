@@ -20,11 +20,18 @@ document.querySelectorAll('.nav-link').forEach(link => {
 // Navbar scroll effect
 window.addEventListener('scroll', () => {
     if (window.scrollY > 50) {
+        navbar.classList.remove('transparent');
         navbar.classList.add('scrolled');
     } else {
+        navbar.classList.add('transparent');
         navbar.classList.remove('scrolled');
     }
 });
+
+// Set initial state
+if (window.scrollY <= 50) {
+    navbar.classList.add('transparent');
+}
 
 // Smooth scrolling functionality
 const scrollArrow = document.getElementById('scrollArrow');
@@ -93,7 +100,7 @@ const animateElements = [
     '.scroll-arrow',
     '.section-title',
     '.about-content',
-    '.services-list li',
+    '.about-image',
     '.portfolio-item',
     '.cta-button'
 ];
